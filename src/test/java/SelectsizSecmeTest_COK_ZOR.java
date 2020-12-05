@@ -103,6 +103,6 @@ public class SelectsizSecmeTest_COK_ZOR {
 
     @AfterClass
     public void tearDown() {
-        //driver.close();
+        driver.close();
     }
 }
