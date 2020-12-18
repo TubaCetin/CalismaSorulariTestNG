@@ -1,13 +1,13 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.Mouse;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import utilities.TestBase;
 
-public class YoutubeFileUploadTest extends Utilities{
+public class YoutubeFileUploadTest extends TestBase {
 
 
     @Test

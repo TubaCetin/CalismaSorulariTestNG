@@ -1,16 +1,13 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
+package tests;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import utilities.TestBase;
 
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
-public class SizinDukkanWindowHandle extends Utilities{
+public class SizinDukkanWindowHandle extends TestBase {
 
     @Test
     public void test() throws InterruptedException {
